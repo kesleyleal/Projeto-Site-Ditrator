@@ -5,10 +5,10 @@
     text-decoration: none;
     font-size: 1em;
 }
-nav{
-    width: 100%;
+header{
     background-color: #232731;
-    z-index: 1;		
+    border: 2px solid green;
+
 }
 
 .nav_index{
@@ -24,10 +24,9 @@ li{
 }
 
 li a{
-    padding: 0 40px;
+    padding: 10px;
     display: flex;
     align-items: center;
-    height: 100%;
     color: white;
     font-style: normal;
     font-family: sans-serif;
@@ -35,57 +34,64 @@ li a{
 }
 li a:hover{
     color: #F16856;
+    border-bottom: 3px solid #F16856;
 }
 ul{
     list-style-type: none;
     display: flex;
     align-items: stretch;
     margin-top: 4%;
-
 }
+/*------------------------------header-------------------------------------------------------*/
 
-/*-------------------------------------------------------------------------------------*/
-
-.homepage{
-    width: 100%;
-    background-image: url('./img/homedtr.png');
-    background-color: #2c2d30;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover; /*adequa a imagem ao tamanho da caixa*/
-}
-
-.homepage .homepage_content{
-    max-width: 1300px;
-    margin: 0 auto;
-}
-
-.homepage .homepage_content .homepage_content_spacer{
-    margin: 0 auto;
-    max-width: 1300px;
-    padding: 160px 40px;
-}
-/*-------------------------------------------------------------------------------------*/
-
+/*------------------------------carrossel-------------------------------------------------------*/
 .carrossel {
 background-color: #232731;
-width: 100%;
 height: 550px;
-
+border: 2px solid red;
+}
+.carrossel_info{
+    border: 2px solid black;
+    color: white;
+}
+/*------------------------------------produtos-------------------------------------------------*/
+.produto{
+    border: 2px solid blue;
+    height: 880px;
+    background-color: white;
+    color: #232731;
 }
 
-.text_carrossel {
-color: white;
-text-align: center;
-
+/*------------------------------------sobre-------------------------------------------------*/
+.sobre{
+    border: 2px solid yellow;
+    height: 880px;
+    background-color: rgb(211, 211, 211);
+    color: #232731;
+}
+/*------------------------------------catalogo-------------------------------------------------*/
+.catalogo{
+    border: 2px solid orange;
+    height: 880px;
+    background-color: #232731;
+    color: white;
+}
+/*------------------------------------footer-------------------------------------------------*/
+footer{
+    border: 2px solid violet;
+    height: 300px;
+    background-color: #232731;
+    color: white;
+}
+.footer_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 
-
-
-
-
-/*color: #F16856
+/*color: #F16856 laranja
+  color: #232731 cinza
 
 
 */
