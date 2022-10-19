@@ -51,10 +51,16 @@
         background-color: #232731;
         height: 550px;
         border: 2px solid red;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .carrossel_info{
+        margin-top: 10%;
         border: 2px solid black;
         color: white;
+        text-align: center;
     }
     /*------------------------------------produtos-------------------------------------------------*/
     .produto{
@@ -62,13 +68,38 @@
         height: 880px;
         background-color: white;
         color: #232731;
-    }    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .produto_img{
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+    }
+    /* .produto_img:hover{
+        opacity: 0.5;
+        transition-delay: 0.2s;
+    } */
+    #img_teste:hover{
+        opacity: 0.5;
+        transition-delay: 0.2s;
+    }
+      
     /*------------------------------------sobre-------------------------------------------------*/
     .sobre{
         border: 2px solid yellow;
         height: 880px;
         background-color: rgb(233, 233, 233);
         color: #232731;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .sobre div{
+        margin: 5%;
     }
 
     a.sobre_btn{
