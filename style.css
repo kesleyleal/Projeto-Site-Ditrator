@@ -36,6 +36,7 @@
     li a:hover{
         color: #F16856;
         border-bottom: 3px solid #F16856;
+        transition-delay: 0.2s;
     }
     ul{
         list-style-type: none;
@@ -47,9 +48,9 @@
     
     /*------------------------------carrossel-------------------------------------------------------*/
     .carrossel {
-    background-color: #232731;
-    height: 550px;
-    border: 2px solid red;
+        background-color: #232731;
+        height: 550px;
+        border: 2px solid red;
     }
     .carrossel_info{
         border: 2px solid black;
@@ -89,8 +90,15 @@
         height: 880px;
         background-color: #232731;
         color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
-
+    .catalogo div{
+        margin: 3%;
+        
+    }
     a.cat_btn{
         border: 2px solid white;
         padding: 20px 60px 20px 60px;
