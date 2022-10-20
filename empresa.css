@@ -1,0 +1,136 @@
+@media only screen and (min-width:1200px){
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-size: 1em;
+    }
+    header{
+        background-color: #232731;
+        border: 2px solid green;
+        height: 230px;
+    
+    }
+    
+    .nav_index{
+        display: flex;	
+        justify-content: center;	
+        flex-direction: row;
+    }
+    
+    li{
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+    
+    li a{
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        color: white;
+        font-style: normal;
+        font-family: sans-serif;
+        
+    }
+    li a:hover{
+        color: #F16856;
+        border-bottom: 3px solid #F16856;
+        transition-delay: 0.2s;
+    }
+    ul{
+        list-style-type: none;
+        display: flex;
+        align-items: stretch;
+        margin-top: 4%;
+    }
+    p{
+        display: flex;
+    }
+    /* --------------------------------quem somos----------------------------- */
+    .infos{
+        background-color: gray;
+        border: 2px solid blue;
+        height: 300px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .infos_content{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border: 2px solid red;
+    }
+    .teste{
+        position: absolute;
+        border: 2px solid black;
+        right: 70%;
+        font-size: 2em;
+        color: white;
+    }
+    /* --------------------------------ditrator--------------------------------- */
+    .ditrator_container{
+        border: 2px solid red;
+        display: flex;
+        justify-content: space-between;
+    }
+    .ditrator_info{
+        border: 2px solid yellow;
+    }
+    .ditrator_img{ 
+        border: 2px solid green;
+        align-items: flex-end;
+        text-align: center;
+        margin-right: 16%;
+        margin-top: 3%;
+
+    }
+    .teste1{
+        border: 2px solid brown;
+        margin-left: 16%;
+        margin-right: 7%;
+        margin-top: 5%;
+        text-align: justify;
+    }
+    .teste2{
+        border: 2px solid orangered;
+        margin-left: 16%;
+        margin-right: 7%;
+        margin-top: 3%;
+    }
+    .teste3{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 3%;
+
+    }
+    /* --------------------------------footer--------------------------------- */
+    footer{
+        border: 2px solid violet;
+        height: 300px;
+        background-color: #232731;
+        color: white;
+        align-items: center;
+    }
+    .footer_container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    a.footer_btn{
+        border: 2px solid white;
+        padding: 20px 60px 20px 60px;
+        margin: 30px;
+        display: inline-block;
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+    }
+    a.footer_btn:hover{
+        background-color: white;
+        color: #232731;
+    }
+}
