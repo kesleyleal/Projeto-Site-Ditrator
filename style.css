@@ -56,8 +56,15 @@
         justify-content: center;
         align-items: center;
     }
+    .background_carrosel{
+        width: 50%;
+        height: 50%;
+        background-color: #171a20;
+        position: absolute;
+        opacity: 0.3;
+
+    }
     .carrossel_info{
-        margin-top: 10%;
         border: 2px solid black;
         color: white;
         text-align: center;
