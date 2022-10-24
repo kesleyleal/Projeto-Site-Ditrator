@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 @media only screen and (min-width:1200px){
     *{
         margin: 0%;
@@ -81,21 +82,21 @@
     .ditrator_img{ 
         border: 2px solid green;
         align-items: flex-end;
-        text-align: center;
         margin-right: 16%;
         margin-top: 3%;
+        text-align: center;
 
     }
     .teste1{
         border: 2px solid brown;
-        margin-left: 16%;
+        margin-left: 30%;
         margin-right: 7%;
         margin-top: 5%;
         text-align: justify;
     }
     .teste2{
         border: 2px solid orangered;
-        margin-left: 16%;
+        margin-left: 30%;
         margin-right: 7%;
         margin-top: 3%;
     }
@@ -105,6 +106,17 @@
         justify-content: center;
         margin-bottom: 3%;
 
+    }
+    .texto1{
+        color: #F16856;
+        font-size: 24px;
+        font-family: 'Raleway', sans-serif;
+        
+    }
+    .texto2{
+        color: #232731;
+        font-size: 24px;
+        font-family: 'Raleway', sans-serif;
     }
     /* --------------------------------footer--------------------------------- */
     footer{
