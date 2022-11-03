@@ -44,6 +44,29 @@
         align-items: stretch;
         margin-top: 4%;
     }
+    /* --------------------------------vendedores----------------------------- */
+    .vend_container{
+        height: 880px;
+    }
+    .vendedores{
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+    }
+    .vend1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: 40%;
+        margin-left: 40%;
+        margin-top: 1%;
+        text-align: left;
+        border: 2px solid #232731;
+        padding: 2%;
+    }
+
     /* --------------------------------footer----------------------------- */
     footer{
         border: 2px solid violet;
