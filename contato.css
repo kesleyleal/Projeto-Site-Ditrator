@@ -46,25 +46,48 @@
     }
     /* --------------------------------vendedores----------------------------- */
     .vend_container{
-        height: 880px;
-    }
-    .vendedores{
+        height: 1100px;
+        background-color: rgba(235, 235, 235, 0.541);
         display: flex;
         flex-direction: column;
+    }
+    .vendedores{
+        /* display: flex; */
+        /* flex-direction: column; */
         justify-content: center; 
         align-items: center;
+        padding: 1%;
     }
     .vend1{
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
+        justify-content: space-between;
         margin-right: 40%;
-        margin-left: 40%;
+        margin-left: 0%;
         margin-top: 1%;
-        text-align: left;
-        border: 2px solid #232731;
-        padding: 2%;
+         border: 2px solid #232731;
+        padding: 0.5%;
+    }
+
+    .vendedor1{
+        display: flex;
+        flex-direction: row;
+        border: 2px solid #F16856;
+        text-align: center;
+
+    }
+
+    .vendedor1_container{
+        width: 170px;
+
+    }
+
+    .pad_cont{
+        padding: 1%;
+    }
+
+    .map_cont{
+        border: 2px solid red;
     }
 
     /* --------------------------------footer----------------------------- */
