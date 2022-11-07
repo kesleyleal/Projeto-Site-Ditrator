@@ -55,7 +55,7 @@
         display: flex;
         flex-direction: column;
         /* border: 2px solid black; */
-        justify-content: space-between;
+        /* justify-content: space-around; */
         width: 1000px;
     }
 
@@ -74,6 +74,32 @@
         display: flex; 
         flex-direction: column;
         width: 500px;
+    }
+    /* --------------------------------email----------------------------- */
+    label{
+        display:block;
+        margin-top:15px;
+    }
+    input{
+        display:block;
+        height:40px;
+        border:1px solid #e5e5e5;
+        background:#f0f0f0;
+        padding:10px;
+        margin-top: 5px;
+        width: 100%;
+    }
+    .email_container{
+        width: 960px;
+        margin:0 auto;
+    }
+    .g-recaptcha{
+        margin-top:15px;
+    }
+    .send{
+        background: #46ac00;
+        color: #fff;
+        border: 0px;
     }
     
 

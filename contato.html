@@ -1,3 +1,7 @@
+<?php	
+	include './php/envia.php';
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -6,6 +10,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="contato.css">
+  <script src='https://www.google.com/recaptcha/api.js'></script>
   <title>Projeto Ditrator</title>
 </head>
 
@@ -223,11 +228,28 @@
             </div>
           </div>
         </div>
-        <div class="vendedor_map"> <iframe
+        <div class="vendedor_map">
+          <p>Matriz - Pinhais-PR</p>
+          <p>Rua Wanda dos Santos Mallmann 1547 - Estancia Pinhais </p>
+          <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.1354111109526!2d-49.20236968437209!3d-25.43373603927027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce4f043d010a5%3A0xfeaa6abeaac7b0ba!2sDitrator%20Distribuidora%20de%20Pe%C3%A7as!5e0!3m2!1spt-BR!2sbr!4v1667585780468!5m2!1spt-BR!2sbr"
             width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p>Matriz - Pinhais-PR</p>
+            <p>Rua Wanda dos Santos Mallmann 1547 - Estancia Pinhais </p>
           <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.1354111109526!2d-49.20236968437209!3d-25.43373603927027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce4f043d010a5%3A0xfeaa6abeaac7b0ba!2sDitrator%20Distribuidora%20de%20Pe%C3%A7as!5e0!3m2!1spt-BR!2sbr!4v1667585780468!5m2!1spt-BR!2sbr"
+            width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p>Matriz - Pinhais-PR</p>
+            <p>Rua Wanda dos Santos Mallmann 1547 - Estancia Pinhais </p>
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.1354111109526!2d-49.20236968437209!3d-25.43373603927027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce4f043d010a5%3A0xfeaa6abeaac7b0ba!2sDitrator%20Distribuidora%20de%20Pe%C3%A7as!5e0!3m2!1spt-BR!2sbr!4v1667585780468!5m2!1spt-BR!2sbr"
+            width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p>Matriz - Pinhais-PR</p>
+            <p>Rua Wanda dos Santos Mallmann 1547 - Estancia Pinhais </p>
+            <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.1354111109526!2d-49.20236968437209!3d-25.43373603927027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce4f043d010a5%3A0xfeaa6abeaac7b0ba!2sDitrator%20Distribuidora%20de%20Pe%C3%A7as!5e0!3m2!1spt-BR!2sbr!4v1667585780468!5m2!1spt-BR!2sbr"
             width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -235,15 +257,29 @@
       </div>
     </section>
     <section>
-      <div>
+      <div class="email_container">
         <h1>parte dos emails</h1>
-        <form method="post">
-          <input type="text" name="Nome" placeholder="Nome">
-          <input type="text" name="Email" placeholder="Email">
-          <input type="text" name="Telefone" placeholder="Telefone">
-          <input type="text" name="Digite sua Mensagem Aqui" placeholder="Digite sua Mensagem Aqui">
-          <input type="submit" value="enviar">
+        <form method="POST" action="./php/envia.php">
+          <label>
+            Seu Nome:
+            <input type="text" name="nome" value="" placeholder="Seu Nome" required>
+          </label>
+          <label>
+            Seu E-mail:
+            <input type="email" name="email" value="" placeholder="Seu E-mail" required>
+          </label>
+          <label>
+            Assunto:
+            <input type="text" name="assunto" value="" placeholder="Assunto" required>
+          </label>
+          <label>
+            Sua Mensagem:
+            <input type="text" name="msg" value="" placeholder="Digite sua mensagem aqui." required>
+          </label>
+          <div class="g-recaptcha" data-sitekey="6Leq-y0UAAAAALVeS4uaVIYDf5zkNJNlInt1VyKW"></div>
+          <input class="send" type="submit">
         </form>
+        
       </div>
     </section>
     <section>
