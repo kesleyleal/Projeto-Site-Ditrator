@@ -1,7 +1,7 @@
 <?php
 
 //Defino a Chave do meu site
-$secret_key = '6Leq-y0UAAAAACCNoMrGTz9sni4_t84UXGqThV78';
+$secret_key = '*********';
 
 //Pego a validação do Captcha feita pelo usuário
 $recaptcha_response = $_POST['g-recaptcha-response'];
