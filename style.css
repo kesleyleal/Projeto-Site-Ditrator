@@ -124,7 +124,7 @@
     }
     /*------------------------------------catalogo-------------------------------------------------*/
     .catalogo{
-        border: 2px solid orange;
+        /* border: 2px solid orange; */
         height: 880px;
         background-color: #232731;
         color: white;
@@ -152,11 +152,13 @@
     }
     /*------------------------------------footer-------------------------------------------------*/
     footer{
-        border: 2px solid violet;
+        /* border: 2px solid violet; */
         height: 300px;
         background-color: #232731;
         color: white;
         align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
     }
     .footer_container{
         display: flex;
@@ -176,6 +178,20 @@
     a.footer_btn:hover{
         background-color: white;
         color: #232731;
+    }
+    .end_container{
+        display: flex;
+        flex-direction: row;
+        padding: 1%;
+    }
+    .end_placeholder{
+        display: flex;
+        align-items: center;
+        padding: 1%;
+    }
+    .dit_container{
+        border-left: 3px solid white;
+        padding-left: 1%;
     }
 }
 
