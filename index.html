@@ -12,7 +12,7 @@
 <body>
   <header>
     <nav class="nav_index">
-      <img src="./img/logo.png" alt="home" width="374 px" height="97 px" style="margin: 5% 4%">
+      <img src="./img/logo.png" alt="home" width="374 px" height="97 px" style="margin: 5% 7% 5% 5%">
       <ul>
         <li><a href="index.html" title="Home" alt="Home">HOME</a></li>
         <li><a href="empresa.html" title="Empresa" alt="Empresa">EMPRESA</a></li>
@@ -26,30 +26,33 @@
   <main>
 
     <section class="carrossel">
-        <div style="z-index: 1;" class="background_carrosel">
-        </div> 
-          <div style="z-index: 2;">
+        <!-- <div class="background_carrosel">
+          <img src="./img/fndtest.png" alt="fundo" width="500px" height="400px">
+        </div> -->
+        <div class="carrossel1">
+          <div style="margin-top: 3%;">
             <img  class="img_fachada" src="./img/fachada.jpg" alt="fachada" width="500px" height="300px">
           </div>
-          <div style="z-index: 2;" class="carrossel_info">
+          <div class="carrossel_info">
 
-            <h1>NOVIDADES DITRATOR</h1>
-            <p>Fique por dentro de todas as nossas novidades, aqui.</p>
-            <p>Nova Filial em Cascavel/PR</p>
+            <h1 class="cartext1">NOVIDADES DITRATOR</h1>
+            <p class="cartext2">Fique por dentro de todas as nossas novidades, aqui.</p>
+            <p class="cartext3">Novo Centro de Distribuição em Cascavel/PR</p>
           </div>
+        </div> 
     </section>
 
     <section class="produto">
 
-        <div>
-          <h1>Conheça nossos Produtos</h1>
-          <p>Com peças para tratores agrícolas e motores de diesel a DITRATOR oferece peças de qualidade com marcas</p>
-          <p>renomadas, com um preço acessível.</p>
+        <div class="prodtext">
+          <h1><p class="prodtext1">CONHEÇA NOSSOS</p> <p class="prodtext2">PRODUTOS</p></h1>
+          <p class="prodtext1">Com peças para tratores agrícolas e motores de diesel a DITRATOR oferece</p>
+          <p class="prodtext1"> peças de qualidade com marcas renomadas, com um preço acessível.</p>
         </div>
         <div class="produto_img">
-          <img id="img_teste" src="./img/agricolas.jpg" alt="agricola">
+          <div class="prodimg"><img id="img_teste" src="./img/agricolas.jpg" alt="agricola"></div>
 
-          <img id="img_teste" src="./img/diesel.jpg" alt="diesel">
+          <div><img id="img_teste" src="./img/diesel.jpg" alt="diesel"></div>
         </div>
 
 
@@ -60,8 +63,8 @@
         <img src="./img/pinhais.jpg" alt="pinhaisdtr">
       </div>
       <div>
-        <h1>CONHEÇA A DITRATOR</h1>
-        <p>Fique por dentro de todas as novidades do que acontece na DITRATOR, Conheça-nos e venha nos fazer uma visita
+        <h1><p class="prodtext1">CONHEÇA</p> <p class="prodtext2">A DITRATOR</p></h1>
+        <p class="prodtext1">Fique por dentro de todas as novidades do que acontece na DITRATOR, Conheça-nos e venha nos fazer uma visita
           hoje mesmo.</p>
         <a class="sobre_btn" href="empresa.html">SAIBA MAIS</a>
       </div>
@@ -69,8 +72,8 @@
 
     <section class="catalogo">
       <div>
-        <h1><a name="catalog"> CATÁLOGO ELETRÔNICO</a></h1>
-        <p>Baixe já o nosso catálogo eletrônico, e fique por dentro das promoções e novidades!</p>
+        <h1><a name="catalog"> <p class="prodtext1">CATÁLOGO</p> <p class="prodtext2">ELETRÔNICO</p></a></h1>
+        <p class="prodtext1">Baixe já o nosso catálogo eletrônico, e fique por dentro</p><p class="prodtext1">das promoções e novidades!</p>
         <a class="cat_btn" href="index.html#catalog">BAIXE JÁ</a>
       </div>
       <div>
@@ -81,46 +84,46 @@
     <footer>
       <div class="footer_container">
         <!--class dentro da tag principal-->
-        <div>
+        <div class="footer_img">
           <img src="./img/logo2.png" alt="home">
         </div>
         <div>
           <p class="dit_container">DITRATOR</p>
           <div class="end_container">
           <div class="end_placeholder"> <img src="./img/location-pointer.png" alt="placeholder" width="30px"></div>
-          <div>
-          <p>R. Wanda dos Santos Mallmann, 1547 - Estância Pinhais</p>
-          <p>R. Herval do Oeste, 171E - Eldorado</p>
-          <p>R. Ivanir Jose Pagliarini, 455 - Niteroi Canoas</p>
-          <p>R. Quarta Filial, 000 - Cascavel Cascavel</p>
+          <div class="footertext1">
+          <p>R. Wanda dos Santos Mallmann, 1547 - Estância Pinhais/PR</p>
+          <p>R. Herval do Oeste, 171E - Eldorado Chapecó/SC</p>
+          <p>R. Ivanir Jose Pagliarini, 455 - Niteroi Canoas/RS</p>
+          <p>R. Gandhi, 335 - Brasmadeira Cascavel/PR</p>
         </div>
           </div>
           <div class="end_container">
           <div class="end_placeholder"> <img src="./img/phone-receiver-silhouette.png" alt="call" width="30px"></div>
-          <div>
+          <div class="footertext1">
           <p>(41) 3306-6500 | PINHAIS/ PR</p>
           <P>(49) 3025-9600 | CHAPECÓ/ SC</P>
           <p>(51) 3075-8401 | CANOAS/ RS</p>
-          <p>(00) 0000-0000 | CASCAVEL/ PR</p>
+          <p>(45) 3097-9696 | CASCAVEL/ PR</p>
         </div>
           </div>
           <div>
             <div class="end_container">
               <div class="end_placeholder"> <img src="./img/envelope.png" alt="envelope" width="30px"></div>
-          <P>contato@ditrator.com.br</P>
+          <P class="footertext1">contato@ditrator.com.br</P>
         </div>
         </div>
         <div>
           <p class="dit_container">HORÁRIO DE ATENDIMENTO</p>
           <div class="end_container">
-            <div> <img src="./img/clock-circular-outline.png" alt="envelope" width="25px"></div>
-          <P style="display: flex; align-items: center; padding: 1%;">Segunda a Sexta: 08:00 até 18:00</P>
+            <div class="end_placeholder"> <img src="./img/clock-circular-outline.png" alt="envelope" width="25px"></div>
+          <P style="display: flex; align-items: center; padding: 1%; margin-right: 3%;" class="footertext1">Segunda a Sexta: 08:00 até 18:00</P>
           </div>
         </div>
         </div>
 
         <div>
-          <p>ALGUMA DÚVIDA?</p>
+          <p class="dit_container">ALGUMA DÚVIDA?</p>
           <a class="footer_btn" href="contato.html">ENTRE EM CONTATO</a>
 
         </div>
