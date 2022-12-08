@@ -60,9 +60,13 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        z-index: 2;
     }
     .background_carrosel{
-        float: inline-end;
+        position: sticky;
+        top: 100%;
+        /* margin: -5px; */
+        z-index: 1;        
     }
     .carrossel_info{
         /* border: 2px solid black; */

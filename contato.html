@@ -17,11 +17,11 @@
 <body>
   <header>
     <nav class="nav_index">
-      <img src="./img/logo.png" alt="home" width="374 px" height="97 px" style="margin: 5% 4%">
+      <img src="./img/logo.png" alt="home" width="374 px" height="97 px" style="margin: 5% 7% 5% 5%">
       <ul>
         <li><a href="index.html" title="Home" alt="Home">HOME</a></li>
         <li><a href="empresa.html" title="Empresa" alt="Empresa">EMPRESA</a></li>
-        <li><a href="#" title="Sobre nós" alt="Sobre nós">SOBRE NÓS</a></li>
+        <li><a href="index.html#sobre" title="Sobre nós" alt="Sobre nós">SOBRE NÓS</a></li>
         <li><a href="index.html#catalog" title="Catálogo" alt="Catálogo">CATÁLOGO</a></li>
         <li><a href="contato.html" title="Contato" alt="Contato">CONTATO</a></li>
       </ul>
@@ -279,60 +279,49 @@
         </div>
       </div>
     </section>
-    <section>
-      <div class="email_container">
-        <h1>parte dos emails</h1>
-        <form method="POST" action="./php/envia.php">
-          <label>
-            Seu Nome:
-            <input type="text" name="nome" value="" placeholder="Seu Nome" required>
-          </label>
-          <label>
-            Seu E-mail:
-            <input type="email" name="email" value="" placeholder="Seu E-mail" required>
-          </label>
-          <label>
-            Assunto:
-            <input type="text" name="assunto" value="" placeholder="Assunto" required>
-          </label>
-          <label>
-            Sua Mensagem:
-            <input type="text" name="msg" value="" placeholder="Digite sua mensagem aqui." required>
-          </label>
-          <input class="send" type="submit">
-        </form>
-        
-      </div>
-    </section>
-    <section>
-      <div>
-        <h1>mapas</h1>
-      </div>
-    </section>
-
     <footer>
       <div class="footer_container">
         <!--class dentro da tag principal-->
-        <div>
+        <div class="footer_img">
           <img src="./img/logo2.png" alt="home">
         </div>
         <div>
-          <p>DITRATOR</p>
-          <p>R. Wanda dos Santos Mallmann, 1547 - Estância Pinhais</p>
-          <p>R. Herval do Oeste, 171E - Eldorado</p>
-          <p>R. Ivanir Jose Pagliarini, 455 - Niteroi Canoas</p>
-          <p>R. Quarta Filial, 000 - Cascavel Cascavel</p>
+          <p class="dit_container">DITRATOR</p>
+          <div class="end_container">
+          <div class="end_placeholder"> <img src="./img/location-pointer.png" alt="placeholder" width="30px"></div>
+          <div class="footertext1">
+          <p>R. Wanda dos Santos Mallmann, 1547 - Estância Pinhais/PR</p>
+          <p>R. Herval do Oeste, 171E - Eldorado Chapecó/SC</p>
+          <p>R. Ivanir Jose Pagliarini, 455 - Niteroi Canoas/RS</p>
+          <p>R. Gandhi, 335 - Brasmadeira Cascavel/PR</p>
+        </div>
+          </div>
+          <div class="end_container">
+          <div class="end_placeholder"> <img src="./img/phone-receiver-silhouette.png" alt="call" width="30px"></div>
+          <div class="footertext1">
           <p>(41) 3306-6500 | PINHAIS/ PR</p>
           <P>(49) 3025-9600 | CHAPECÓ/ SC</P>
           <p>(51) 3075-8401 | CANOAS/ RS</p>
-          <p>(00) 0000-0000 | CASCAVEL/ PR</p>
-          <P>contato@ditrator.com.br</P>
-          <p>HORÁRIO DE ATENDIMENTO</p>
-          <P>Segunda a Sexta: 08:00 até 18:00</P>
+          <p>(45) 3097-9696 | CASCAVEL/ PR</p>
+        </div>
+          </div>
+          <div>
+            <div class="end_container">
+              <div class="end_placeholder"> <img src="./img/envelope.png" alt="envelope" width="30px"></div>
+          <P class="footertext1">contato@ditrator.com.br</P>
+        </div>
+        </div>
+        <div>
+          <p class="dit_container">HORÁRIO DE ATENDIMENTO</p>
+          <div class="end_container">
+            <div class="end_placeholder"> <img src="./img/clock-circular-outline.png" alt="envelope" width="25px"></div>
+          <P style="display: flex; align-items: center; padding: 1%; margin-right: 3%;" class="footertext1">Segunda a Sexta: 08:00 até 18:00</P>
+          </div>
+        </div>
         </div>
 
         <div>
-          <p>ALGUMA DÚVIDA?</p>
+          <p class="dit_container">ALGUMA DÚVIDA?</p>
           <a class="footer_btn" href="contato.html">ENTRE EM CONTATO</a>
 
         </div>
