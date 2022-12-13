@@ -51,7 +51,7 @@
     .vendedor_container{
         display: flex;
         justify-content: space-between;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         margin: 1% 5% 1% 5%;
     }
     .vendedos_wrapper{
@@ -60,6 +60,7 @@
         /* border: 2px solid black; */
         /* justify-content: space-around; */
         width: 1000px;
+        padding: 1%;
     }
 
     .vendedor_info{
@@ -81,30 +82,126 @@
     /* --------------------------------email----------------------------- */
     label{
         display:block;
-        margin-top:15px;
+        /* margin-top:15px; */
     }
-    input{
+    .input1{
         display:block;
-        height:40px;
-        border:1px solid #e5e5e5;
-        background:#f0f0f0;
-        padding:10px;
-        margin-top: 5px;
+        height:55px;
+        /* border:1px solid #e5e5e5; */
+        /* background:#f0f0f0; */
+        padding:6px 6px 6px 11px;
+        /* margin-top: 1px; */
         width: 100%;
+        border-left: solid 10px #232731;
+        border-top: solid 1px #232731;
+        border-right: solid 1px #232731;
+        border-bottom: solid 0px white;
+        font-size: 18px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+    }
+    .input2{
+        display:block;
+        height:55px;
+        /* border:1px solid #e5e5e5; */
+        /* background:#f0f0f0; */
+        padding:6px 6px 6px 11px;
+        /* margin-top: 1px; */
+        width: 100%;
+        border-left: solid 10px #232731;
+        border-top: solid 1px #232731;
+        border-right: solid 1px #232731;
+        border-bottom: solid 1px #232731;
+        font-size: 18px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+    }
+    
+    .input1:hover{
+        border-left: solid 10px #F16856;
+        border-top: solid 1px #F16856;
+        border-right: solid 1px #F16856;
+        
+    }
+    .input2:hover{
+        border-left: solid 10px #F16856;
+        border-top: solid 1px #F16856;
+        border-right: solid 1px #F16856;
+        border-bottom: solid 1px #F16856;
     }
     .email_container{
         width: 960px;
-        margin:0 auto;
+        margin-top: 8%;
     }
-    .g-recaptcha{
+    /* .g-recaptcha{
         margin-top:15px;
-    }
+    } */
     .send{
-        background: #46ac00;
-        color: #fff;
-        border: 0px;
+        /* background: #F16856; */
+        margin-left: 82%;
+        margin-top: 1%;
+        color:#232731;
+        background-color: white;
+        border: solid 1px;
+        padding: 20px 60px 20px 60px;
+        font-size: 18px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        
     }
-    
+    /* ----------------text------------------------------- */
+    .text1{
+        font-size: 32px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .text2{
+        font-size: 26px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 3%;
+    }
+    .text3{
+        font-size: 18px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 800;
+        padding: 2%;
+    }
+    .text4{
+        font-size: 16px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        color: #F16856;
+        padding: 2%;
+    }
+    .text5{
+        font-size: 16px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        padding: 2%;
+    }
+    .text6{
+        font-size: 16px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 800;
+        display: flex;
+        justify-content: center;
+        margin-top: 3%;
+    }
+    .text7{
+        font-size: 16px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2%;
+    }
 
     /* --------------------------------footer----------------------------- */
     footer{
