@@ -97,8 +97,8 @@
         width: 33px;
     }
     .mapbckgnd{
-        background-color: #e2e2e281;
-        margin-top: 4%;
+        /* background-color: rgb(233, 233, 233); */
+        margin-top: 20%;
     }
     /* --------------------------------email----------------------------- */
     label{
@@ -215,6 +215,7 @@
         display: flex;
         justify-content: center;
         margin-top: 5%;
+        /* padding: 2%; */
     }
     .text7{
         font-size: 16px;
@@ -222,7 +223,9 @@
         font-weight: 400;
         display: flex;
         justify-content: center;
-        margin-bottom: 4%;
+        margin-bottom: 1%;
+        padding: 2%;
+        /* margin-bottom: 1%; */
     }
 
     /* --------------------------------footer----------------------------- */
