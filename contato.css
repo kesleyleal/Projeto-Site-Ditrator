@@ -52,7 +52,7 @@
         display: flex;
         justify-content: space-between;
         /* border: 2px solid red; */
-        margin: 4% 10% 2% 10%;
+        margin: 4% 10% 2% 5%;
      }
     .vendedos_wrapper{
         display: flex;
@@ -65,15 +65,19 @@
 
     .vendedor_info{
         display: flex; 
-        /* width: 250px; */
+        width: 33%;
         /* border: 2px solid #F16856; */
     }
+    /* .vendedor_info div{
+        width: 100%;
+    } */
     
     .vendedor_back {
         display: flex;
         flex-direction: row; 
         justify-content: space-between;
         margin-top: 6%;
+        width: 100%;
     }
     .vendedor_map {
         display: flex; 
@@ -98,6 +102,9 @@
     }
     .mapbckgnd{
         /* background-color: rgb(233, 233, 233); */
+        /* display: flex;
+        flex-direction: column;
+        align-items: center; */
         margin-top: 20%;
     }
     /* --------------------------------email----------------------------- */
@@ -150,10 +157,10 @@
         border-right: solid 1px #F16856;
         border-bottom: solid 1px #F16856;
     }
-    /* .email_container{
-        width: 960px;
+    .email_container{
+        width: 85%;
         margin-top: 8%;
-    } */
+    }
     /* .g-recaptcha{
         margin-top:15px;
     } */
@@ -207,6 +214,8 @@
         font-family: 'Raleway', sans-serif;
         font-weight: 600;
         padding: 2%;
+        /* width: 100%;
+        display: inline-block; */
     }
     .text6{
         font-size: 16px;
@@ -286,4 +295,7 @@
     .footer_img{
         margin-top: 4%;
     }
+}
+@media (min-width:1366) {
+    
 }
