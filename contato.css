@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800&display=swap');
-@media only screen and (min-width:1280px){
+@media only screen and (min-width:1200px){
     *{
         margin: 0%;
         padding: 0%;
@@ -50,46 +50,46 @@
     /* --------------------------------vendedores----------------------------- */
     .vendedor_container{
         display: flex;
-        justify-content: space-between;
+        /* justify-content: space-between; */
         /* border: 2px solid red; */
-        margin: 4% 10% 2% 5%;
+        margin: 0% 15% 0% 15%;
+        justify-content: center;
      }
     .vendedos_wrapper{
         display: flex;
         flex-direction: column;
+        justify-content: center;
         /* border: 2px solid black; */
         /* justify-content: space-around; */
-        width: 100%;
+        /* width: 100%; */
         padding: 1%;
     }
 
     .vendedor_info{
         display: flex; 
-        width: 33%;
         /* border: 2px solid #F16856; */
+        width: 330px;
     }
-    /* .vendedor_info div{
-        width: 100%;
-    } */
     
     .vendedor_back {
         display: flex;
-        flex-direction: row; 
-        justify-content: space-between;
+        flex-flow: row wrap;
+        justify-content: space-around;
         margin-top: 6%;
         width: 100%;
     }
     .vendedor_map {
         display: flex; 
         justify-content: center;
-        flex-direction: column;
-        /* width: 500px; */
+        flex-flow: row wrap;
+        margin: 0% 10% 5% 10%;
+    }
+    .mapspace {
+        margin: 0% 2% 0% 2%;
     }
     .map{
-        width: 110%;
-        height: 350px;
-        border: 0;
-        margin-left: 10%;
+        width: 300px;
+        height: 250px;
     }
     .logovend{
         width: 75px;
@@ -101,12 +101,9 @@
         width: 33px;
     }
     .mapbckgnd{
-        /* background-color: rgb(233, 233, 233); */
-        /* display: flex;
-        flex-direction: column;
-        align-items: center; */
-        margin-top: 20%;
-    }
+        display: flex;
+        justify-content: center;
+    } 
     /* --------------------------------email----------------------------- */
     label{
         display:block;
@@ -158,8 +155,9 @@
         border-bottom: solid 1px #F16856;
     }
     .email_container{
-        width: 85%;
-        margin-top: 8%;
+        /* width: 85%;
+        margin-top: 8%; */
+        margin: 0% 15% 0% 15%;
     }
     /* .g-recaptcha{
         margin-top:15px;
@@ -185,6 +183,8 @@
         align-items: center;
         display: flex;
         justify-content: center;
+        margin-top: 2%;
+        margin-bottom: 3%;
     }
     .text2{
         font-size: 26px;
@@ -193,7 +193,7 @@
         align-items: center;
         display: flex;
         justify-content: center;
-        margin-bottom: 4%;
+        margin-bottom: 3%;
         margin-top: 4%;
     }
     .text3{
@@ -227,13 +227,13 @@
         /* padding: 2%; */
     }
     .text7{
-        font-size: 16px;
+        font-size: 14px;
         font-family: 'Raleway', sans-serif;
         font-weight: 400;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 1%;
-        padding: 2%;
+        /* display: flex;
+        justify-content: center; */
+        /* margin-bottom: 1%;
+        padding: 2%; */
         /* margin-bottom: 1%; */
     }
 
