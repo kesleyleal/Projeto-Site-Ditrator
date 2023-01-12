@@ -69,6 +69,8 @@
         display: flex; 
         /* border: 2px solid #F16856; */
         width: 330px;
+        margin-top: 1%;
+        margin-bottom: 1%;
     }
     
     .vendedor_back {
