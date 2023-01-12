@@ -254,8 +254,8 @@
     display: flex;
     height: 293px;
     width: 600px;
-    margin: auto;
-    margin-top: 20px;
+    /* margin: auto; */
+    margin-bottom: 25%;
     position: relative;
 }
 
